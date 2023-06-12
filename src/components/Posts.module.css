@@ -1,0 +1,135 @@
+.post {
+  align-items: flex-start;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(240, 248, 255, 0.719);
+}
+
+.post_header {
+  display: flex;
+  gap: 10px;
+}
+
+.post_body {
+  flex: 1;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.user_header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.post_text {
+  font-size: 20px;
+  height: 24px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.post_tweetImage {
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.post_tweetImage > img {
+  object-fit: contain;
+  border-radius: 20px;
+  max-height: 250px;
+}
+
+.post_editForm {
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.tweet_addIcon {
+  cursor: pointer;
+  color: dimgray;
+}
+.tweet_addIconLoaded {
+  cursor: pointer;
+  color: black;
+}
+.tweet_hiddenForm {
+  display: none;
+}
+
+.post_commentArea {
+  padding-bottom: 10px;
+}
+
+.post_comment {
+  width: 50%;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(240, 248, 255, 0.719);
+}
+
+.post_commentHeader {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.post_commentText {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.post_commentForm {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.post_deleteBtn {
+  margin-left: 19px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.liked {
+  color: blue;
+}
+
+.on_edit {
+  color: blue;
+}
+
+.post_form {
+  display: flex;
+  align-items: center;
+}
+
+.post_button {
+  border: none;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+.post_buttonDisable {
+  display: none;
+}
+
+.post_commentButton {
+  border: none;
+  color: whitesmoke;
+  background-color: transparent;
+  cursor: pointer;
+}
+.post_commentButtonDisable {
+  display: none;
+}
