@@ -21,7 +21,6 @@ import { classicNameResolver } from "typescript";
 import { sign } from "crypto";
 import { Message } from "@material-ui/icons";
 
-//スタイルを定義する関数
 const useStyles = makeStyles((theme) => ({
   root: {
     height: "100vh",
